@@ -45,8 +45,14 @@ main {
 	border-radius: 5px;
 }
 
-footer {
-	height: auto;
+.spatula {
+	animation: swing ease-in-out 1s infinite alternate;
+	transform-origin: center -20px;
+}
+
+@keyframes swing {
+	0% {transform: rotate(3deg);}
+	100% {transform: rotate(-3deg);}
 }
 
 /* index  */
