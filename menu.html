@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Menu</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</head>
+	<body class="bg-dark w-100 fs-3 position-relative">
+		<!-- navbar -->
+		<header class="bg-dark fixed-top navbar-fixed-top p-3 z-index-1 w-100">
+			<nav class="navbar navbar-dark d-flex justify-content-between flex-nowrap mx-3">
+				<div class="navbar-brand m-0 p-0 d-flex align-items-center justify-content-start">
+					<a href="index.html" class="nav-box me-3 p-0">
+						<img class="img-fluid" src="images/Kobe-logo.png" alt="Kobe-logo" />
+					</a>
+					<div class="d-flex flex-column">
+						<a href="index.html" class="text-decoration-none text-white m-0">
+							<h4 class="m-0">KOBE TEPPANYAKI LOUNGE</h4>
+							<h4>(Japanese restaurant)</h4>
+						</a>
+					</div>
+				</div>
+				<!-- Button trigger modal -->
+				<button class="btn p-0 border-0 d-lg-none" data-bs-toggle="modal" data-bs-target="#menu-navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="material-icons material-icons-outlined text-white align-middle"> menu </span>
+				</button>
+				<!-- expanded nav  -->
+				<ul class="nav nav-tabs d-none d-lg-flex">
+					<li class="nav-item text-uppercase">
+						<a class="nav-link" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item text-uppercase">
+						<a class="nav-link" href="menu.html">Menu</a>
+					</li>
+					<li class="nav-item text-uppercase">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="mx-auto">
+			<!-- modal -->
+			<div id="menu-navbar" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="menu-navbar" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content bg-dark">
+						<div class="modal-header d-flex justify-content-end border-0">
+							<button type="button" class="btn text-white" data-bs-dismiss="modal" aria-label="Close">
+								<span class="material-icons material-icons-outlined align-middle">restaurant_menu</span>
+							</button>
+						</div>
+						<div class="modal-body navbar-nav d-flex flex-column justify-content-center align-items-center">
+							<a class="nav-link text-uppercase active" aria-current="page" href="index.html">Home</a>
+							<a class="nav-link text-uppercase" href="menu.html">Menu</a>
+							<a class="nav-link text-uppercase" href="contact.html">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- quote  -->
+			<section id="#top" class="quote d-flex align-items-center justify-content-center mb-5">
+				<div class="spatula text-center">
+					<img src="images/spatula2/spatula2_1_1,w_200.png" alt="spatula" class="spatula img-fluid" />
+				</div>
+				<figure class="text-center text-white m-0">
+					<blockquote>
+						<p class="display-5 px-3">Food is a tasty hug, bliss on a plate.</p>
+					</blockquote>
+				</figure>
+				<div class="spatula text-center">
+					<img src="images/spatula1/spatula1_uspyxc_ar_1_1,c_fill,g_auto__c_scale,w_200.png" alt="spatula" class="spatula img-fluid" />
+				</div>
+			</section>
+
+			<!-- menu  -->
+			<section id="menu">
+				<div class="row my-2 mx-3 text-white pt-5">
+					<h3 class="col display-5">Appetizer</h3>
+				</div>
+				<ol class="menu-list align-items-center my-2 mx-5 p-0 text-white">
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Chicken Karaage</p>
+						<span class="col-3 menu-price">$7.15</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/ba92d992-5e1c-47a2-9d71-12fc5fcd51eb-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">House Salad</p>
+						<span class="col-3 menu-price">$3.90</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/533d7bb3-09b5-4489-839d-3f93707114d1-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Miso Soup</p>
+						<span class="col-3 menu-price">$2.60</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photosV2/7da7eb40-4bac-440c-a631-5536d1ef251a-retina-large.JPG" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Spicy Pork Gyoza</p>
+						<span class="col-3 menu-price">$7.15</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/c953faea-7ade-4c25-b518-8164b8bf0f3f-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Spicy Veggie Gyoza</p>
+						<span class="col-3 menu-price">$7.15</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/8ecc93e7-f359-4f0d-bbb5-7862ed804b1b-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Takoyaki</p>
+						<span class="col-3 menu-price">$8.45</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/81f6c1f9-15f2-4d17-bb0b-db8530cc817c-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Agedashi Tofu</p>
+						<span class="col-3 menu-price">$6.50</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photosV2/4566f15a-57f5-4f77-a844-9065d4c6553e-retina-large.JPG" alt="" />
+					</li>
+				</ol>
+				<div class="row my-2 mx-3 text-white pt-5">
+					<h3 class="col display-5">Ramen</h3>
+				</div>
+				<ol class="menu-list align-items-center my-2 mx-5 p-0 text-white">
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Creamy Veggie Ramen<br />
+							<span class="small text-secondary">Corn, Spinach, Green Onion, Tofu, Black Garlic Oil, Chili Oil</span>
+						</p>
+						<span class="col-3 menu-price">$16.90</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/0e5f76b9-a701-46f1-a984-b834a3845db8-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Spicy Miso Ramen<br />
+							<span class="small text-secondary">Corn, Bean Spount, Green Onion, Charsiu, Egg, Chili Oil</span>
+						</p>
+						<span class="col-3 menu-price">$16.90</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/18a35f77-d3f7-47aa-949b-d43080796c2d-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Tonkotsu Ramen<br />
+							<span class="small text-secondary">Kikurage, Corn, Green Onion, Charsiu, Egg, Black Garlic Oil</span>
+						</p>
+						<span class="col-3 menu-price">$16.90</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/88daa67d-a97b-4236-abb3-b067c68a9533-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Ajitsuke Tamago</p>
+						<span class="col-3 menu-price">$3.25</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photosV2/b6d87d54-8986-4556-9de3-d5e3b033382a-retina-large.JPG" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Extra Noodle</p>
+						<span class="col-3 menu-price">$4.25</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Extra Soup</p>
+						<span class="col-3 menu-price">$6.50</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Extra Topping</p>
+						<span class="col-3 menu-price">$3.25</span>
+					</li>
+				</ol>
+				<div class="row my-2 mx-3 text-white pt-5">
+					<h3 class="col display-5">Yakisoba Noodle</h3>
+				</div>
+				<ol class="menu-list align-items-center my-2 mx-5 p-0 text-white">
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Chicken Yakisoba Noodle Bowl<br />
+							<span class="small text-secondary">Mushroom, Cabbage, Carrot, Onion, Green Onion, Chicken, Yakisoba Sauce</span>
+						</p>
+						<span class="col-3 menu-price">$17.50</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/e64f53b9-d19f-405c-ae4a-e512d008ded7-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Beef Yakisoba Noodle Bowl<br />
+							<span class="small text-secondary">Mushroom, Cabbage, Carrot, Onion, Green Onion, Beef, Yakisoba Sauce</span>
+						</p>
+						<span class="col-3 menu-price">$17.50</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Shrimp Yakisoba Noodle Bowl<br />
+							<span class="small text-secondary">Mushroom, Cabbage, Carrot, Onion, Green Onion, Shrimp, Yakisoba Sauce</span>
+						</p>
+						<span class="col-3 menu-price">$18.00</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Veggie Yakisoba Noodle Bowl<br />
+							<span class="small text-secondary">Mushroom, Cabbage, Carrot, Onion, Green Onion, Tofu, Yakisoba Sauce</span>
+						</p>
+						<span class="col-3 menu-price">$17.50</span>
+					</li>
+				</ol>
+				<div class="row my-2 mx-3 text-white pt-5">
+					<h3 class="col display-5">Rice Bowl</h3>
+				</div>
+				<ol class="menu-list align-items-center my-2 mx-5 p-0 text-white">
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Teriyaki Chicken Bowl<br />
+							<span class="small text-secondary">Seasonal Vegetables, Rice , Creamy Sesame Dressing</span>
+						</p>
+						<span class="col-3 menu-price">$16.90</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/61bbd5d5-ff3a-40e5-86fb-cb6a4a45ee96-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Teriyaki Beef Bowl<br />
+							<span class="small text-secondary">Seasonal Vegetables, Rice , Creamy Sesame Dressing</span>
+						</p>
+						<span class="col-3 menu-price">$16.90</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/a20ef896-6958-4795-bc62-23d0a648d85f-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Hibachi Shrimp Bowl<br />
+							<span class="small text-secondary">Seasonal Vegetable, Rice, Misonaise Dressing</span>
+						</p>
+						<span class="col-3 menu-price">$17.55</span>
+						<img class="col-3 ms-auto pe-0" src="https://img.cdn4dd.com/p/fit=cover,width=1000,format=auto,quality=50/media/photos/456437d2-8539-40d3-90b5-4ae56eb90c5e-retina-large-jpeg" alt="" />
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							Teriyaki Salmon Bowl<br />
+							<span class="small text-secondary">Seasonal Vegetable, Rice, Japanese Ginger Dressing</span>
+						</p>
+						<span class="col-3 menu-price">$17.55</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">
+							New York Steak<br />
+							<span class="small text-secondary">Seasonal Vegetable, Rice, Creamy Sesame Dressing</span>
+						</p>
+						<span class="col-3 menu-price">$23.40</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Extra Chicken</p>
+						<span class="col-3 menu-price">$6.50</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Extra Beef</p>
+						<span class="col-3 menu-price">$6.50</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Extra Salmon</p>
+						<span class="col-3 menu-price">$6.50</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Extra Shrimp</p>
+						<span class="col-3 menu-price">$6.50</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Extra Sauce</p>
+						<span class="col-3 menu-price">$1.00</span>
+					</li>
+				</ol>
+				<div class="row my-2 mx-3 text-white pt-5">
+					<h3 class="col display-5">Drink</h3>
+				</div>
+				<ol class="menu-list align-items-center my-2 mx-5 p-0 text-white">
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">7 up</p>
+						<span class="col-3 menu-price">$2.00</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Bubly Cherry</p>
+						<span class="col-3 menu-price">$2.00</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Bubly Grapefruit</p>
+						<span class="col-3 menu-price">$2.00</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Bubly Lime</p>
+						<span class="col-3 menu-price">$2.00</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Calpico</p>
+						<span class="col-3 menu-price">$3.25</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Calpico Lychee</p>
+						<span class="col-3 menu-price">$3.25</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Pepsi</p>
+						<span class="col-3 menu-price">$2.00</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Diet Pepsi</p>
+						<span class="col-3 menu-price">$2.00</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Iced Tea</p>
+						<span class="col-3 menu-price">$2.00</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Japanese Green Tea</p>
+						<span class="col-3 menu-price">$3.25</span>
+					</li>
+					<li class="row align-items-center border border-secondary rounded">
+						<p class="col-6 menu-item m-0">Water</p>
+						<span class="col-3 menu-price">$1.50</span>
+					</li>
+				</ol>
+			</section>
+		</main>
+
+		<!-- scroll to top button -->
+		<div class="scroll_to_top d-flex align-items-center justify-content-end fixed-bottom">
+			<a class="btn p-0 position-absolute bottom-0 end-0 mx-2 mb-3" href="#top" role="button"><span class="material-icons material-icons-outlined text-white align-middle"> expand_less </span></a>
+		</div>
+
+		<footer class="w-100 position-relative mt-5">
+			<div class="container d-flex justify-content-around align-items-center">
+				<div class="footer_menu">
+					<nav class="nav fs-5">
+						<p class="m-0"><a class="text-white nav-link active" aria-current="page" href="index.html">Home</a></p>
+						<p class="m-0"><a class="text-white nav-link" href="menu.html">Menu</a></p>
+						<p class="m-0"><a class="text-white nav-link" href="contact.html">Contact Us</a></p>
+					</nav>
+				</div>
+				<div class="social_link fs-5">
+					<a href="#"><i class="fab fa-twitter text-white py-1 px-2"></i></a>
+					<a href="#"><i class="fab fa-facebook-f text-white py-1 px-2"></i></a>
+					<a href="#"><i class="fab fa-instagram text-white py-1 px-2"></i></a>
+				</div>
+			</div>
+			<hr class="text-white" />
+			<p class="text-white text-center fs-5">&copy 2021 All Rights Reserved by KiKi</p>
+		</footer>
+
+		<script src="main.js"></script>
+	</body>
+</html>
